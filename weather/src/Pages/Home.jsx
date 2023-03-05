@@ -9,7 +9,7 @@ const Home = () => {
       {/* <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 "> */}
       <div className="logo flex justify-center items-center">
         <div className="">
-          <img className="" src="../../public/Emojis/cloud.png" />
+          <img className="" src="../../Emojis/cloud.png" />
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-y-4 p-6 rounded-3xl ">
