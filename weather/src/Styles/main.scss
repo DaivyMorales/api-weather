@@ -1,0 +1,70 @@
+@import "./Normalize.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    @apply text-purple-500 font-black tracking-tight text-5xl;
+
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+}
+
+h3 {
+    font-size: 22px;
+    color: white;
+}
+
+p {
+    @apply font-medium text-purple-400 text-xs text-left;
+}
+
+input {}
+
+.FieldIcon {
+    @apply font-medium text-sm border px-4 py-2 rounded-full bg-[#202020];
+}
+
+.Field {
+    @apply font-medium text-sm text-purple-800 bg-white rounded-xl px-4 py-2 border-2 border-purple-300 border-b-purple-300 border-b-4;
+}
+
+button[type="submit"] {
+    @apply bg-purple-600 text-white p-2 rounded-lg text-sm font-semibold;
+}
+
+// button[type="text"] {
+//     @apply bg-purple-600 text-white py-2 rounded-xl border-b-4 border-purple-900 px-4 text-sm font-semibold hover:bg-purple-400;
+// }
+
+.buttonIcon {
+    @apply bg-purple-600 text-white w-36 h-11 rounded-xl text-sm flex justify-center items-center font-medium hover:bg-purple-400;
+}
+
+.buttonSecondary {
+    @apply border-2 border-gray-500 text-gray-500 w-36 h-11 rounded-xl text-sm flex justify-center items-center font-medium hover:bg-gray-200;
+}
+
+.iconContainer {
+    @apply bg-purple-500 rounded-full p-3;
+}
+
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+    filter: drop-shadow(0 0 2em #ff4affaa);
+}
