@@ -10,7 +10,7 @@ Weather APP is a simple but great system that will help you to know the weather 
 # Features
 + 🌤️ You have access to search any city around the world
 + 📱 Full responsive
-+ ♥️ It was do with love!
++ ♥️ It was done with love!
 
 ## Technologies Used
 
